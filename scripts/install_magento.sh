@@ -121,14 +121,3 @@ cat <<EOF> /var/www/goto.html
 </body>
 </html>
 EOF
-
-
-# LINKS
-http://YOUR_SERVER_IP/magento/index.php/ - store frontend
-http://YOUR_SERVER_IP/magento/index.php/admin/dashboard/ - admin menu
-http://YOUR_SERVER_IP/magento/downloader/index.php - connect manager
-http://www.magentocommerce.com/wiki/groups/227/installing_magento_via_shell_ssh
-http://www.magentocommerce.com/wiki/general/installing-magento-on-slicehost-with-ubuntu
-http://www.magentocommerce.com/wiki/groups/227/command_line_installation_wizard
-http://svn.magentocommerce.com/source/branches/1.1-trunk/install.php
-http://blog.magentomagik.com/how-to-install-magento-extensions-magento-extension-installation-guide/ - How to install magento extensions
