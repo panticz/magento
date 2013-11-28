@@ -2,9 +2,9 @@
 <?php
 require '/var/www/app/Mage.php';
 Mage::app(0);
-  
-if(count($_SERVER['argv']) > 1) {
-  $value=$_SERVER['argv'][1];
+
+if(count($_SERVER['argv']) == 2) {
+  $value = $_SERVER['argv'][1];
 
   # update config
   $config = new Mage_Core_Model_Config();
