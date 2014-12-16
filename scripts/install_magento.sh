@@ -49,6 +49,7 @@ export MAGE_PEAR_PHP_BIN=/usr/bin/php5
 
 
 cd /var/www
+chmod +x mage
 ./mage  mage-setup .
 
 
